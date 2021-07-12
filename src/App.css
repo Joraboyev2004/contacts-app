@@ -1,0 +1,148 @@
+body {
+  background: rgb(231, 230, 230) !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.phone__icon {
+  width: 40px;
+  display: inline-block;
+}
+
+.nav__bar {
+  background: white;
+  align-items: center;
+  display: flex;
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+  height: 8vh;
+}
+
+.nav__bar input {
+  width: 100%;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  height: 40px;
+  padding: 7px 12px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.nav__bar input:focus {
+  background-color: silver;
+}
+
+.icon_bars {
+  padding: 12px 18px;
+  background-color: rgb(240, 240, 240);
+  color: #434344;
+  display: none;
+  border-radius: 50%;
+}
+
+/* SideBar */
+
+.sideBar {
+  background: white;
+  width: 20%;
+  display: block;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  height: 92vh;
+  margin-top: 8vh !important;
+}
+
+.sideBar_kich {
+  width: 80% !important;
+  display: block !important;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  height: 92vh;
+  transition: 0.4s;
+}
+
+.sideBar_kich_none {
+  width: 0% !important;
+  display: none !important;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  height: 92vh;
+  transition: 0.4s;
+}
+
+.table_width {
+  width: 80% !important;
+  margin-left: 20% !important;
+  padding: 9vh 20px 20px 20px !important;
+}
+
+@media screen and (min-width: 769px){
+  .table_width {
+    width: 80% !important;
+    margin-left: 20% !important;
+    padding: 9vh !important;
+  }
+
+  .sideBar {
+    width: 20%;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 92vh;
+  
+  }
+
+  .sideBar_kich {
+    width: 20% !important;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 92vh;
+  }
+  
+  .sideBar_kich_none {
+    width: 20% !important;
+    display: block !important;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 92vh;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .sideBar {
+    width: 0%;
+    display: none;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 90vh;
+  } 
+
+  .table_width{
+    width: 100% !important;
+    margin-left: 0% !important;
+    padding: 9vh !important;
+  }
+
+  .phone__icon {
+    width: 30px;
+  }
+
+  #phone_icon {
+    display: none;
+  }
+
+  .icon_bars {
+    display: inline-block;
+  }
+}
+
+.color-custom {
+  color: #3c3d3d !important ;
+  font-weight: bold;
+  padding: 10px!important;
+}
+
+.icon_sidebar {
+  width: 35px !important;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.link_nav {
+  text-decoration: none !important;
+}
